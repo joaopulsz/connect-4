@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid {
+    width: 980px;
+    height: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(2, 126, 250);
+    padding: 30px 50px;
+    border-radius: 5%;
+}
+
+#grid div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px 20px;
+}
